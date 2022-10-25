@@ -4,19 +4,15 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
 
+<!-- removing red text class-->
 
-.red-text {
-    color: red;
-  }
 
   h2 {
     font-family: Lobster, Monospace;
   }
 
-  p {
-    font-size: 16px;
-    font-family: Monospace;
-  }
+<!-- removing p css-->
+
 
   .thick-green-border {
     border-color: green;
@@ -25,19 +21,18 @@
     border-radius: 50%;
   }
 
-  .smaller-image {
-    width: 100px;
-  }
+<!-- removing smaller image css-->
+
 </style>
 
 <!-- put all html in class "container-fluid"-->
 <div class="container-fluid">
 
-<h2 class="red-text text-center">CatPhotoApp</h2>
+<h2 class="text-primary text-center">CatPhotoApp</h2>
 
-<p>Click here for <a href="#">cat photos</a>.</p>
 
-<a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+
+<a href="#"><img class="img-responsive thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
 
 <!-- add img with class "img-responsive"... a boodstrap class to make img responsive  -->
 <img class="img-responsive" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" alt="3 cats.">
@@ -54,8 +49,8 @@
 
 </div>
 
-
-<p>Things cats love:</p>
+<!-- use span to target inline elements-->
+<p>Things cats <span class="text-danger">love:</span></p>
 <ul>
   <li>cat nip</li>
   <li>laser pointers</li>
